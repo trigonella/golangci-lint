@@ -43,7 +43,7 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	github.com/sonatard/noctx v0.0.1
 	github.com/sourcegraph/go-diff v0.5.3
-	github.com/spf13/cobra v1.0.0
+	github.com/spf13/cobra v1.0.1-0.20200710201246-675ae5f5a98c
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.0
 	github.com/stretchr/testify v1.6.1
@@ -63,5 +63,3 @@ require (
 	mvdan.cc/lint v0.0.0-20170908181259-adc824a0674b // indirect
 	mvdan.cc/unparam v0.0.0-20190720180237-d51796306d8f
 )
-
-replace github.com/spf13/cobra => github.com/VilledeMontreal/cobra v0.0.6-0.20200629203744-5782fedb5fb1
