@@ -3,15 +3,15 @@ package p
 
 import "log"
 
-// langauge lala
-// lala langauge
-// langauge
-// langauge langauge
+// language lala
+// lala language
+// language
+// language language
 
-// check Langauge
+// check Language
 // and check langAuge
 
 func langaugeMisspell() {
-	var langauge, langaugeAnd string
-	log.Printf("it's becouse of them: %s, %s", langauge, langaugeAnd)
+	var language, langaugeAnd string
+	log.Printf("it's because of them: %s, %s", language, langaugeAnd)
 }

@@ -156,7 +156,7 @@ func (f Fixer) applyInlineFixes(lineIssues []result.Issue, origLine []byte, line
 	newLineBuf.Grow(len(origLine))
 
 	//nolint:misspell
-	// example: origLine="it's becouse of them", StartCol=5, Length=7, NewString="because"
+	// example: origLine="it's because of them", StartCol=5, Length=7, NewString="because"
 
 	curOrigLinePos := 0
 	for i := range lineIssues {

@@ -32,4 +32,4 @@ func wsl() bool {
 func notFormatted() {
 }
 
-// langauge
+// language
