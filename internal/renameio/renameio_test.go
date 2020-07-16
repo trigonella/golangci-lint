@@ -114,7 +114,7 @@ func TestConcurrentReadsAndWrites(t *testing.T) {
 		sem <- true
 	}
 
-	var minWriteSuccesses int64 = attempts
+	var minWriteSuccesses = attempts
 	if runtime.GOOS == "windows" {
 		// Windows produces frequent "Access is denied" errors under heavy rename load.
 		// As long as those are the only errors and *some* of the writes succeed, we're happy.
@@ -127,7 +127,7 @@ func TestConcurrentReadsAndWrites(t *testing.T) {
 		t.Logf("%d (of %d) writes succeeded (ok: ≥ %d)", writeSuccesses, attempts, minWriteSuccesses)
 	}
 
-	var minReadSuccesses int64 = attempts
+	var minReadSuccesses = attempts
 
 	switch runtime.GOOS {
 	case "windows":

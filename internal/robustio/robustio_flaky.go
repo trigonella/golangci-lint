@@ -25,7 +25,7 @@ func retry(f func() (err error, mayRetry bool)) error {
 		bestErr     error
 		lowestErrno syscall.Errno
 		start       time.Time
-		nextSleep   time.Duration = 1 * time.Millisecond
+		nextSleep   = 1 * time.Millisecond
 	)
 	for {
 		err, mayRetry := f()
