@@ -25,7 +25,6 @@ func oneNewlineFunc() {
 
 func twoNewlinesFunc() {
 
-
 }
 
 func noNewlineWithCommentFunc() {
@@ -43,7 +42,6 @@ func oneLeadingNewlineWithCommentFunc() {
 }
 
 func twoLeadingNewlines() {
-
 
 	fmt.Println("Hello world")
 }

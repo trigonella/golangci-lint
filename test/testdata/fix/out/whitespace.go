@@ -22,7 +22,6 @@ func oneNewlineFunc() {
 
 func twoNewlinesFunc() {
 
-
 }
 
 func noNewlineWithCommentFunc() {

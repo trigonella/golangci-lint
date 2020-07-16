@@ -31,7 +31,7 @@ func wsl() bool {
 	return true
 }
 
-func notFormatted()  {
+func notFormatted() {
 }
 
 // langauge
